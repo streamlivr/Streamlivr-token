@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "cketh_starter_backend": {
+      "candid": "src/cketh_starter_backend/cketh_starter_backend.did",
+      "package": "cketh_starter_backend",
+      "type": "rust"
+    },
+    "ckETH_starter_frontend": {
+      "dependencies": [
+        "cketh_starter_backend"
+      ],
+      "source": [
+        "src/ckETH_starter_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "ckETH_starter_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
