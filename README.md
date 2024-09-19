@@ -410,5 +410,6 @@ async fn withdraw_ckusdc_to_ethereum(amount: Nat, eth_address: String) -> Withdr
 - Official ckERC20 Documentation - [Link](https://internetcomputer.org/docs/current/developer-docs/multi-chain/chain-key-tokens/ckerc20/overview)
 - Ledger Suit Orchestrator Documentation - [Link](https://github.com/dfinity/ic/tree/master/rs/ethereum/ledger-suite-orchestrator)
 - ckERC20 GitHub Page - [Link](https://github.com/dfinity/ic/blob/master/rs/ethereum/cketh/docs/ckerc20.adoc)
-- ckSepoliaUSDC Dashboard - [Link](https://dashboard.internetcomputer.org/sepoliaeth/yfumr-cyaaa-aaaar-qaela-cai)#   I C P - e r c 2 0 - e v m t o k e n  
+- ckSepoliaUSDC Dashboard - [Link](https://dashboard.internetcomputer.org/sepoliaeth/yfumr-cyaaa-aaaar-qaela-cai)#   I C P - e r c 2 0 - e v m t o k e n 
+ 
  
