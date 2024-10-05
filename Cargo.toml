@@ -1,5 +1,0 @@
-[workspace]
-members = [
-    "src/cketh_starter_backend"
-]
-resolver = "2"

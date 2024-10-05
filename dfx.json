@@ -1,27 +1,19 @@
 {
-  "canisters": {
-    "cketh_starter_backend": {
-      "candid": "src/cketh_starter_backend/cketh_starter_backend.did",
-      "package": "cketh_starter_backend",
-      "type": "rust"
+    "canisters": {
+     
+      "icrc1_ledger_canister": {
+        "type": "custom",
+        "candid": "icrc1_ledger.did",
+        "wasm": "icrc1_ledger.wasm.gz"
+      }
+    
     },
-    "ckETH_starter_frontend": {
-      "dependencies": [
-        "cketh_starter_backend"
-      ],
-      "source": [
-        "src/ckETH_starter_frontend/dist"
-      ],
-      "type": "assets",
-      "workspace": "ckETH_starter_frontend"
-    }
-  },
-  "defaults": {
-    "build": {
-      "args": "",
-      "packtool": ""
-    }
-  },
-  "output_env_file": ".env",
-  "version": 1
-}
+    "defaults": {
+      "build": {
+        "args": "",
+        "packtool": ""
+      }
+    },
+    "output_env_file": ".env",
+    "version": 1
+  }
